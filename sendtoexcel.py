@@ -1,13 +1,6 @@
 import xlwt
 
-DATA = (("Shares", "QTY", "Purchared Value", "Current Value", "NET" ),
-        ("The Authoritative Calvin and Hobbes", 1990,),
-        ("The Indispensable Calvin and Hobbes", 1992,),
-        ("Attack of the Deranged Mutant Killer Monster Snow Goons", 1992,),
-        ("The Days Are Just Packed", 1993,),
-        ("Homicidal Psycho Jungle Cat", 1994,),
-        ("There's Treasure Everywhere", 1996,),
-        ("It's a Magical World", 1996,),)
+DATA = (("Shares", "QTY", "Purchared Value", "Current Value", "NET" ))
 
 wb = xlwt.Workbook()
 ws = wb.add_sheet("My Sheet")
